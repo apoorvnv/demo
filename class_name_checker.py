@@ -1,7 +1,7 @@
 # class_name_checker.py
 from pylint.checkers import BaseChecker
 
-class ClassNameChecker(BaseChecker):
+class CreateClassNameChecker(BaseChecker):
     name = 'class-name-checker'
     priority = -1
     msgs = {
