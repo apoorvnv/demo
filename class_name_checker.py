@@ -19,4 +19,4 @@ class CreateClassNameChecker(BaseChecker):
             self.add_message('class-name-should-start-with-verb', node=node)
 
 def register(linter):
-    linter.register_checker(ClassNameChecker(linter))
+    linter.register_checker(CreateClassNameChecker(linter))
